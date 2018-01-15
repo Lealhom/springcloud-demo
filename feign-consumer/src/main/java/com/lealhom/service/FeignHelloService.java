@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RequestParam;
  * Created by Lealhom on 2018/1/15 16:47
  * Description:
  */
-//,fallback = FeignHelloServiceHystrix.class
 @FeignClient(name="USER-SERVICE" ,fallback = FeignHelloServiceHystrix.class) //user-service也行，不区分大小写
 public interface FeignHelloService {
     @RequestMapping("/hello")
