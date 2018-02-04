@@ -8,5 +8,7 @@
     <artifactId>springcloud-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-<!--test333-->
+
+<!--testdev-->
+
 </project>
